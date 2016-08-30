@@ -36,7 +36,7 @@ user --name=centos --password=Asdfqwerty --plaintext --gecos="CentOS User" --she
 authconfig --enableshadow --passalgo=sha512
 
 # SELinux enabled
-selinux --enforcing
+selinux --permissive
 
 # Disable anything graphical
 skipx
